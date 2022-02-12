@@ -1,0 +1,276 @@
+*{
+  margin:0px; /* no edges spaces */
+  padding:0px;
+  box-sizing: border-box;
+  font-family: unset;
+}
+
+body {
+background-color: #bd71359c;
+
+}
+ nav {
+
+width: 100%;
+height:75px;
+line-height: 75px;
+padding: 0px 100px;
+position: fixed;
+z-index: 1;
+border-bottom: 2px solid #795548;
+background-image : url(header.png);
+ }
+
+ nav .logo {
+font-size: 30px;
+font-weight: bold;
+letter-spacing: 1.5px;
+ }
+nav .logo p {
+  color: #795548;
+  float: left;
+  width: 200px;
+
+}
+
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block; /* making them next to each other */
+  list-style: none;
+  width: 100px;
+   padding:0px 2px 0px 0px;
+
+}
+nav ul li:hover{
+	text-decoration: underline;
+}
+
+nav ul li a {
+  color: #795548;
+  font-weight: bold;
+font-family:  unset;
+text-decoration: none;
+font-size: 15px;
+padding: 0px;
+
+}
+nav .log{
+
+   position: absolute;
+    top: 0%;
+    left:18%;
+
+ }
+ .D{
+	 font-family:unset;
+	 color: #795548b3;
+	 font-size:30px;
+	 margin-top:107px;
+	    margin-left: 18px;
+    max-width: 872px;
+	 padding:80px; 
+		  position : absolute;
+		      font-weight: lighter;
+    font-family: serif;
+	border-bottom: 3px solid black;
+}
+.D h1{
+	
+	font-size: 87px;
+    color: #795548
+	
+}
+.T{
+	    margin-top: 144px;
+	     margin-left: 940px;
+		  position : absolute;
+		  transition:transform 0.5s;
+}
+.T:hover{
+	transform: translateY(-10px)
+}
+.T caption {
+	
+ font: bold 12px Sans-Serif;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background:#e8cfc299;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 0 10px 0;
+  line-height: 24px;
+    position: absolute;
+  top: 0;
+  left: 0;
+     transform-origin: 145px 147px;
+  transform: rotate(90deg);
+}
+.imgb{
+	
+	margin-top: 10px;
+	position: absolute;
+	display: inline;
+	    margin-left: 34px;
+
+}
+
+.imgf{
+	
+	margin-top: 10px;
+	position: absolute;
+	display: inline;
+} 
+
+.I{
+	font-weight: bold;
+
+}
+
+.TB{
+	   padding: 18px;
+    width: 120%;
+    border-spacing: 120px;
+    position: absolute;
+}
+.TB .btn{
+	    font-size: 16px;
+    margin-left: -5px;
+	
+}
+.TB .btn:hover{
+	
+	text-decoration: underline;
+}
+.image4{
+	position: relative;
+}
+.image4 .btn{
+	position: relative;
+  top: 80%;
+  left:0%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline;
+  background: none;
+ }
+ 
+ .image5{
+	position: relative;
+}
+.image5 .btn{
+	position: relative;
+  top: 80%;
+  left:0%;
+  background : none;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline;
+ }
+ 
+ .image6{
+	position: relative;
+	    margin-top: -115px;
+}
+.image6 .btn{
+	position: relative;
+  top: 80%;
+  left:0%;
+  background : none;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline;
+ }
+ 
+  .image7{
+	position: relative;
+	    margin-top: -115px;
+}
+.image7 .btn{
+position: relative;
+  top: 80%;
+  left:0%;
+  background : none;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline;
+ }
+.item{
+    position: absolute;
+    margin-top: 90px;
+    background:#e8cfc299;
+    width: 100%;
+	font-family: cursive;
+    font-size: 10px;
+    color: #755346;
+
+}
+.item h1{
+	margin-left: 500px;
+	
+}
+.addbtn{
+	
+	 position: absolute;
+  position: absolute;
+  top: 85%;
+    left: 17%;
+  transform: translate(-50%, -50%);
+ background: #79554847;
+  color: black;
+  font-size: 22px;
+    padding: 9px 37px;
+    border: #79554847 solid 1px;
+    cursor: pointer;
+}
+.addbtn:hover {
+	background-color: #00000061;
+	color:white;
+	
+}
+.footer-content {
+  background-color: #795548;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height:11%;
+}
+
+.socials ul li  {
+  display: inline-block; /* making them next to each other */
+  width: 40px; /* distance  between icons */
+  font-size:25px;
+}
+
+.twitter a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.instagram a {
+    text-decoration: none;
+    color: #e93465;
+}
+
+
+.footer-content h3 {
+color: #bea396;
+font-family: unset;
+
+
+}
